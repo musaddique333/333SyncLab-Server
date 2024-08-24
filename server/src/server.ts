@@ -13,7 +13,7 @@ const app = express();
 
 // CORS Configuration
 const corsOptions = {
-  origin: 'https://333-sync-lab-server.vercel.app/', // Replace with your actual Vercel domain
+  origin: 'https://333-sync-lab.vercel.app/', // Replace with your actual Vercel domain
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions)); // Applying CORS with options
